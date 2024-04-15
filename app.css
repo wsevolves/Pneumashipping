@@ -1,0 +1,409 @@
+.header {
+  height: auto;
+  padding-top: 15px;
+}
+
+.logo-container {
+  padding-left: 125px;
+  padding-bottom: 10px;
+  display: flex;
+
+  align-content: center;
+}
+
+.header-logo {
+  width: 64px;
+  height: 64px;
+}
+.header-font {
+  color: #000;
+  font-family: Krub;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.023%; /* 18.903px */
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+.nav-bar {
+  height: 78px;
+  background-color: #111c55;
+}
+.menu-container {
+}
+
+.banner {
+  max-width: 100%;
+  height: 700px;
+}
+.banner2 {
+  max-width: 100%;
+  height: 500px;
+}
+
+.menu-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #ffb629;
+}
+.align-center {
+  align-items: center;
+}
+.bgwhite {
+  background-color: #fff;
+}
+.pl-4 {
+  padding-left: 40px;
+}
+.what-container {
+  display: flex;
+  padding: 114px 100px;
+  justify-content: center;
+}
+.caption-text-container {
+  height: 23px;
+  flex-shrink: 0;
+}
+.caption-text {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 9px;
+}
+.caption-border {
+  background: linear-gradient(
+    94deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  width: 10px;
+  flex-shrink: 0;
+  height: 23px;
+}
+.features-header {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.features-subheader {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.line-border {
+  width: 1px;
+  height: 105px;
+  background: #d8d8d8;
+}
+.details-container {
+  flex-direction: column;
+  padding-left: 25px;
+}
+.details-header {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.detail-font {
+  color: #666c89;
+  text-align: justify;
+  font-family: Krub;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.523%; /* 18.183px */
+}
+.flex-dircl {
+  flex-direction: column;
+}
+.whyus-subheader {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mt-10 {
+  margin-top: 100px !important;
+}
+.service-img {
+  width: 220px;
+  height: 300px;
+}
+.bgservice {
+  height: 400px;
+  margin-top: -200px !important;
+  z-index: -100;
+  background: linear-gradient(
+    95deg,
+    #ffb629 -1.19%,
+    #ffda56 57.78%,
+    #ffd7a6 115.08%
+  );
+}
+
+.backgrounAir {
+  background: #f2f2f2;
+}
+
+.Whyback {
+  width: 1920px;
+  height: 900px;
+  flex-shrink: 0;
+}
+
+.ImageAir {
+  width: 1000px;
+  height: 900px;
+}
+
+.WhyConatiner {
+  width: 585.277px;
+  height: 537.374px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20%;
+  flex-shrink: 0;
+  margin-top: 25%;
+}
+
+.features-subheaderWhy {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.cardicon {
+  display: flex;
+}
+
+.Inline {
+  margin-right: 20px;
+}
+
+.InlineR {
+  margin-left: 0px;
+}
+
+.OurGoodness {
+  width: 1920px;
+  height: 480px;
+}
+
+.GoodImg {
+  width: 800px;
+  height: 400px;
+}
+
+.flex {
+  margin-left: 41%;
+}
+
+.goodText {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.CardGood {
+  margin-left: 10%;
+  flex-direction: row;
+}
+
+.goodCard {
+  width: 410px;
+}
+
+.WhyConatinerUs {
+  flex-direction: column;
+  align-items: flex-start;
+
+  flex-shrink: 0;
+}
+
+.HeadingAboutUs {
+  color: #1c1f35;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 3%;
+}
+
+.AboutImg {
+  width: 1920px;
+  height: 480px;
+  margin-top: 20%;
+}
+
+.USImage {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Us {
+}
+
+.ContactUs {
+  width: 1532px;
+  height: 100%;
+  background: #091242;
+}
+
+.MainClass {
+  width: 1920px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-bottom: 15%;
+}
+.applyFlex {
+  flex-direction: row;
+}
+.color {
+  color: white;
+}
+.colorText {
+  background: #091242;
+}
+.TextInputFlex {
+  flex-direction: row;
+  width: 100%;
+  gap: 10%;
+}
+.TextIn {
+  width: 365px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid #4e5683;
+}
+.ButtonS {
+  width: 150px;
+}
+.form-control::placeholder {
+  color: white !important;
+}
+.Big {
+  height: 150px;
+}
+
+.banner3 {
+  max-width: 100%;
+  height: 432px;
+}
+
+.FooterImg {
+  flex-direction: row;
+}
+
+.SizeImg {
+  width: 990px;
+  height: 590px;
+}
+img {
+  max-width: 100%;
+}
+
+.flexwrap {
+  flex-wrap: nowrap !important;
+}
+a {
+  text-decoration: none !important;
+}
+.tariffBtn {
+  color: white !important;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  img {
+    max-height: 50%;
+  }
+  .bgservice {
+    display: none;
+  }
+
+  /* Additional styles for smaller screens */
+  /* You might want to stack elements, hide certain elements, etc. */
+}
+
+/* Media query for screens between 768px and 991px (typical tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  img {
+    max-height: 80%;
+  }
+}
+
+/* Media query for screens larger than 992px (typical desktops) */
+@media only screen and (min-width: 992px) {
+  img {
+    max-height: 100%;
+  }
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.whatsnew-Item a {
+  color: #091242;
+  padding: 2px;
+}
+.modal-content {
+  border: 3px solid #091242;
+}
